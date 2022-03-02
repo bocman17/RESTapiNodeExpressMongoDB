@@ -1,0 +1,34 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/621ef749e344115a681e6373
+
+###
+
+POST  http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"bocman",
+    "subscribedToChannel":"Pewds"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/621ef7f107b09141c1aa8f
+
+###
+
+PATCH http://localhost:3000/subscribers/621ef9a21aa845156dc4cd89
+Content-Type: application/json
+
+{
+    "name":"Tasja",
+    "subscribedToChannel":"Marzia"
+
+}
+
+###
+
+DELETE http://localhost:3000/subscribers
